@@ -54,11 +54,22 @@ public class LionTest {
     }
 
     @Test
-    public void getLionEatMeat() throws Exception {
+    public void lionEatMeat() throws Exception {
         Lion lion = new Lion("Самец", feline);
         Mockito.when(feline.getFood("Хищник")).thenReturn(Arrays.asList("Животные", "Птицы", "Рыба"));
         List<String> expectedEatMeat = Arrays.asList("Животные", "Птицы", "Рыба");
         List<String> actualEatMeat = lion.getFood();
         assertEquals(expectedEatMeat, actualEatMeat);
+    }
+    @Test
+    public void lionEatAnotherMeat() throws Exception {
+        //arrange
+        Lion lion = new Lion("Самец", feline);
+        //act
+        Mockito.when(feline.getFood("Хищник")).thenReturn(Arrays.asList("Животные", "Рыба", "Птицы"));
+        List<String> expectedEatMeat = Arrays.asList("Животные", "Птицы", "Рыба");
+        List<String> actualEatMeat = lion.getFood();
+        //assert
+        assertTrue(expectedEatMeat.size() == actualEatMeat.size() && expectedEatMeat.containsAll(actualEatMeat) && actualEatMeat.containsAll(expectedEatMeat));
     }
 }
