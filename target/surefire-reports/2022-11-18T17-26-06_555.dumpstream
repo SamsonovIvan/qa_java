@@ -1,0 +1,99 @@
+# Created at 2022-11-18T17:26:06.907
+java.io.FileNotFoundException: C:\Users\????\IdeaProjects\qa_java\target\jacoco.exec (Системе не удается найти указанный путь)
+
+# Created at 2022-11-18T17:26:06.908
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+
+# Created at 2022-11-18T17:26:06.908
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+
+# Created at 2022-11-18T17:26:06.909
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+
+# Created at 2022-11-18T17:26:06.909
+	at org.jacoco.agent.rt.internal_3570298.output.FileOutput.openFile(FileOutput.java:68)
+
+# Created at 2022-11-18T17:26:06.910
+	at org.jacoco.agent.rt.internal_3570298.output.FileOutput.startup(FileOutput.java:50)
+
+# Created at 2022-11-18T17:26:06.910
+	at org.jacoco.agent.rt.internal_3570298.Agent.startup(Agent.java:129)
+
+# Created at 2022-11-18T17:26:06.910
+	at org.jacoco.agent.rt.internal_3570298.Agent.getInstance(Agent.java:54)
+
+# Created at 2022-11-18T17:26:06.911
+	at org.jacoco.agent.rt.internal_3570298.PreMain.premain(PreMain.java:50)
+
+# Created at 2022-11-18T17:26:06.911
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+# Created at 2022-11-18T17:26:06.912
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+
+# Created at 2022-11-18T17:26:06.912
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+# Created at 2022-11-18T17:26:06.912
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+
+# Created at 2022-11-18T17:26:06.913
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:513)
+
+# Created at 2022-11-18T17:26:06.913
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:525)
+
+# Created at 2022-11-18T17:26:06.913
+Exception in thread "main" java.lang.reflect.InvocationTargetException
+
+# Created at 2022-11-18T17:26:06.913
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+# Created at 2022-11-18T17:26:06.914
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+
+# Created at 2022-11-18T17:26:06.914
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+# Created at 2022-11-18T17:26:06.914
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+
+# Created at 2022-11-18T17:26:06.915
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:513)
+
+# Created at 2022-11-18T17:26:06.915
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:525)
+
+# Created at 2022-11-18T17:26:06.916
+Caused by: java.io.FileNotFoundException: C:\Users\????\IdeaProjects\qa_java\target\jacoco.exec (Системе не удается найти указанный путь)
+
+# Created at 2022-11-18T17:26:06.916
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+
+# Created at 2022-11-18T17:26:06.917
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+
+# Created at 2022-11-18T17:26:06.917
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+
+# Created at 2022-11-18T17:26:06.917
+	at org.jacoco.agent.rt.internal_3570298.output.FileOutput.openFile(FileOutput.java:68)
+
+# Created at 2022-11-18T17:26:06.918
+	at org.jacoco.agent.rt.internal_3570298.output.FileOutput.startup(FileOutput.java:50)
+
+# Created at 2022-11-18T17:26:06.918
+	at org.jacoco.agent.rt.internal_3570298.Agent.startup(Agent.java:129)
+
+# Created at 2022-11-18T17:26:06.918
+	at org.jacoco.agent.rt.internal_3570298.Agent.getInstance(Agent.java:54)
+
+# Created at 2022-11-18T17:26:06.918
+	at org.jacoco.agent.rt.internal_3570298.PreMain.premain(PreMain.java:50)
+
+# Created at 2022-11-18T17:26:06.919
+	... 6 more
+
+# Created at 2022-11-18T17:26:06.919
+*** java.lang.instrument ASSERTION FAILED ***: "result" with message agent load/premain call failed at ./src/java.instrument/share/native/libinstrument/JPLISAgent.c line: 422
+
