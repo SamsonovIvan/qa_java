@@ -21,8 +21,8 @@ public class FelineTest {
     @Test
     public void felineGetFamilyTest() {
         Feline feline = new Feline();
-        String actualFamaly = feline.getFamily();
-        assertEquals("Кошачьи", actualFamaly);
+        String actualFamily = feline.getFamily();
+        assertEquals("Кошачьи", actualFamily);
     }
 
     @Test
